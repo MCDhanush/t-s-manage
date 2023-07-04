@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.section-rou{
+  padding: 24px;
+}
+.sideba-color{
+    background-color: #d07315 ;
+    color: white;
+    position: static;
+    flex-shrink: 0;
+    height: 100%;
+    box-shadow:  0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.teachlist-co{
+  margin: 0 auto;
+  max-width: 1150px;
+  color: black;
+padding: 20px;
+  /* display: block; */
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.tea-img{
+  height: 130px;
+  border-radius: 50%;
+  padding: 16px;
+  margin-left: 90px;
+}
+.iner-div{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+  padding: 15px;
+}
+.iner-divs{
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tea-name{
+padding-left: 22px;}
+.about-a ,
+.tea-about{
+ padding-left: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.add-peop{
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.peo-img{
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 350px;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.peo-img:hover{
+  transform:scale(1.1)
+
+}
+
+.add-teach{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 950px;
+}
+.home{
+  color: black;
+  text-align: center;
+}
+.home-bar{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-cnt{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 16px;
+  padding-top: 25px;
+  
+  /* padding-left: 150px; */
 }
