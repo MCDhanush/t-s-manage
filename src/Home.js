@@ -31,7 +31,7 @@ export function Home() {
                                     <div className="row no-gutters align-items-center">
                                         <div className="col mr-2">
                                             <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                               Toatal Number of Tecahers</div>
+                                               Toatal Number of Tecachers</div>
                                             <div className="h5 mb-0 font-weight-bold text-gray-800">{lengtht.length}</div>
                                         </div>
                                         <div className="col-auto">
@@ -49,7 +49,7 @@ export function Home() {
                                     <div className="row no-gutters align-items-center">
                                         <div className="col mr-2">
                                             <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                               Total Number of Studnets</div>
+                                               Total Number of Students</div>
                                             <div className="h5 mb-0 font-weight-bold text-gray-800">{lengths.length}</div>
                                         </div>
                                         <div className="col-auto">
