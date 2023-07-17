@@ -62,7 +62,9 @@ export function Home() {
 
                         </div>
 
-                        <h2>Administrative Management is the process of managing information through people. This usually involves performing the storage and distribution of information to those within an organisation. A large number of roles within business require some element of administrative management.</h2>
+                        <h2>
+                            Administrative Management is the process of managing information through people. This usually involves performing the storage and distribution of information to those within an organisation. A large number of roles within business require some element of administrative management.
+                        </h2>
   </div>
 
   </>
