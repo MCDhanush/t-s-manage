@@ -31,7 +31,7 @@ export function Home() {
                                     <div className="row no-gutters align-items-center">
                                         <div className="col mr-2">
                                             <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                               Toatal Number of Tecachers</div>
+                                               Toatal Number of Teachers</div>
                                             <div className="h5 mb-0 font-weight-bold text-gray-800">{lengtht.length}</div>
                                         </div>
                                         <div className="col-auto">
@@ -61,6 +61,8 @@ export function Home() {
                         </div>
 
                         </div>
+
+                        <h2>Administrative Management is the process of managing information through people. This usually involves performing the storage and distribution of information to those within an organisation. A large number of roles within business require some element of administrative management.</h2>
   </div>
 
   </>
