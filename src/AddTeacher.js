@@ -43,17 +43,17 @@ export function AddTeacher() {
 
   return (<>
     <form onSubmit={handleSubmit} className='add-teach'>
-      <TextField label="Teacher" variant="outlined" name='About' type='text' value={values.teacher}
+      <TextField
+        name='about' onChange={handleChange} value={values.about} error={touched.about && errors.about}
+        helperText={touched.about && errors.about ? errors.about : null}
+        onBlur={handleBlur} label="Name" variant="outlined" type='text' />
+      <TextField label="About" variant="outlined" name='teacher' type='text' value={values.teacher}
         onChange={handleChange} onBlur={handleBlur} error={touched.teacher && errors.teacher}
         helperText={touched.teacher && errors.teacher ? errors.teacher : null} teacher="teacher" />
       <TextField
         name='age' onChange={handleChange} value={values.age} error={touched.age && errors.age}
         helperText={touched.age && errors.age ? errors.age : null}
         onBlur={handleBlur} label="Age" variant="outlined" type='text' />
-      <TextField
-        name='about' onChange={handleChange} value={values.about} error={touched.about && errors.about}
-        helperText={touched.about && errors.about ? errors.about : null}
-        onBlur={handleBlur} label="Name" variant="outlined" type='text' />
       <TextField
         name='avatar' onChange={handleChange} value={values.avatar} error={touched.avatar && errors.avatar}
         helperText={touched.avatar && errors.avatar ? errors.avatar : null}
