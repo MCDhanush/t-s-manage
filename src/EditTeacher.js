@@ -54,7 +54,7 @@ function EditTeachForm({ teaches }) {
 
   return (<>
     <form onSubmit={handleSubmit} className='add-teach'>
-      <TextField label="Teacher" variant="outlined" name='teacher' type='text' value={values.teacher}
+      <TextField className='box-a' label="Name" variant="outlined" name='teacher' type='text' value={values.teacher}
         onChange={handleChange} onBlur={handleBlur} error={touched.teacher && errors.teacher}
         helperText={touched.teacher && errors.teacher ? errors.teacher : null} teacher="teacher" />
       <TextField
@@ -64,7 +64,7 @@ function EditTeachForm({ teaches }) {
       <TextField
         name='about' onChange={handleChange} value={values.about} error={touched.about && errors.about}
         helperText={touched.about && errors.about ? errors.about : null}
-        onBlur={handleBlur} label="Name" variant="outlined" type='text' />
+        onBlur={handleBlur} label="About" variant="outlined" type='text' />
       <TextField
         name='avatar' onChange={handleChange} value={values.avatar} error={touched.avatar && errors.avatar}
         helperText={touched.avatar && errors.avatar ? errors.avatar : null}

@@ -70,6 +70,7 @@ padding-left: 22px;}
   flex-direction: column;
   gap: 16px;
   flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 0 auto;
   max-width: 950px;
 }
