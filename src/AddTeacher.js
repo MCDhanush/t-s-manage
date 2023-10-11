@@ -43,7 +43,7 @@ export function AddTeacher() {
 
   return (<>
     <form onSubmit={handleSubmit} className='add-teach'>
-      <TextField label="Teacher" variant="outlined" name='teacher' type='text' value={values.teacher}
+      <TextField label="Teacher" variant="outlined" name='About' type='text' value={values.teacher}
         onChange={handleChange} onBlur={handleBlur} error={touched.teacher && errors.teacher}
         helperText={touched.teacher && errors.teacher ? errors.teacher : null} teacher="teacher" />
       <TextField
