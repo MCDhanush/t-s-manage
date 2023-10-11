@@ -69,7 +69,7 @@ function EditTeachForm({ teaches }) {
         name='avatar' onChange={handleChange} value={values.avatar} error={touched.avatar && errors.avatar}
         helperText={touched.avatar && errors.avatar ? errors.avatar : null}
         onBlur={handleBlur} label="Image URl" variant="outlined" type='text' />
-      <Button variant="contained" color='success' type='submit'> Add Movie</Button>
+      <Button variant="contained" color='success' type='submit'>Save</Button>
 
     </form>
 

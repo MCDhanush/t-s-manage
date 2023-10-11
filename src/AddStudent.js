@@ -58,7 +58,7 @@ export function AddStudent() {
         name='avatar' onChange={handleChange} value={values.avatar} error={touched.avatar && errors.avatar}
         helperText={touched.avatar && errors.avatar ? errors.avatar : null}
         onBlur={handleBlur} label="Image URl" variant="outlined" type='text' />
-      <Button variant="contained" type='submit'> Add Movie</Button>
+      <Button variant="contained" type='submit'> Add Student</Button>
 
     </form>
 
