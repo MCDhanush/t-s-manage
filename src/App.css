@@ -101,3 +101,74 @@ padding-left: 22px;}
   color: rgb(66, 66, 66);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.sidebar .nav-item .nav-link{
+  padding:0.75rem 0 ;
+  text-align: center;
+  width: 6.5rem;
+}
+.about-a{
+  color: orange;
+}
+@media(max-width:450px){
+  .home-bar{
+    padding: 10px;
+  }
+  .home-h{
+    font-size: 18px;
+  }
+  .home-head{
+    font-size: 25px;
+  }
+  .peo-img{
+    height: 200px;
+  }
+  .add-cnt h2{
+    font-size: 20px;
+  }
+  .tea-img {
+    height: 140px;
+    border-radius: 50%;
+    /* padding: 16px; */
+    margin-left: 6px;
+}
+.iner-div{
+  padding: 15px 0;
+}
+.tea-name {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.tea-age{
+  margin: 0;
+  font-size: 15px;
+}
+.about-a,ab-bu{
+  padding: 0;
+  margin: 0;
+}
+.tea-about{
+  padding: 0;
+  font-size: 15px;
+}
+.teachlist-co{
+  margin-bottom: 25px;
+}
+}
+
+@media(max-width:380px){
+  .tea-name{
+    font-size: 13px;
+  }
+  .tea-age{
+    font-size: 13px;
+  }
+  .tea-about{
+    font-size: 12px;
+  }
+  .tea-img {
+    height: 110px;
+    margin-left: -2px;
+  }
+}
